@@ -1,0 +1,188 @@
+.body {
+    text-align: center;
+    margin: 0 auto;
+}
+.first_block {
+    margin: auto;
+    background-image: url("parkovka.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+}
+.second_block {
+    margin: auto;
+    padding-top: 60px;
+    background-image: url("parking2.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+}
+.third_block {
+    margin: auto;
+    padding-top: 60px;
+    background-image: url("parking3.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 696px;
+}
+.block_content {
+    width: 1200px;
+    margin: auto;
+}
+.third_block_text {
+    margin: 0;
+}
+.second_block_text {
+    margin: 0;
+}
+.title {
+    margin-top: 0px;
+}
+.button_link {
+    text-decoration: none;
+}
+.title {
+    text-align: left;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 80px;
+    padding-left: 45px;
+}
+.text_title {
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 20px;
+    padding-left: 45px;
+}
+.button_block {
+    margin-top: 80px;
+    display: flex;
+    padding-left: 45px;
+}
+.button {
+    width: 200px;
+    height: 200px;
+    margin-right: 80px;
+    background-color: rgb(42, 109, 244);
+    border-color: white;
+    border-radius: 30px;
+    border-width: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+.button_link {
+    
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+.block_content_text {
+    width: 800px;
+    margin-left: 45px;
+    background-color: rgba(173, 165, 165, 0.5);
+    
+}
+.second_block_text, .third_block_text {
+    width: 800px;
+    text-align: left;
+    font-size: 25px;
+    line-height: 35px;
+    color: black;
+    padding-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.label_form {
+    width: fit-content;
+    padding: 1px 2px;
+    border: solid 1px bisque;
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 6px;
+}
+.input_name {
+    width: 398px;
+    border-color: bisque;
+    border-radius: 6px;
+    background: rgba(173, 165, 165, 0.3);
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.button_form {
+    width: 200px;
+    height: 200px;
+    margin-right: 80px;
+    background-color: rgb(42, 109, 244);
+    border-color: white;
+    border-radius: 30px;
+    border-width: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.checkbox_div {
+    margin-top: 15px;
+    text-align: left;
+}
+.label_checkbox {
+    cursor: pointer;
+}
+.checkbox {
+    display: none;
+}
+.box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: #E3B873;
+    border-radius: 1px;
+    color: #fff;
+}
+.box::before {
+    content: "\2714";
+    opacity: 0;
+    transition: 0.2s;
+}
+.checkbox:checked + .box::before{
+    opacity: 1;
+}
+.text {
+    color: black;
+    background-color: rgba(173, 165, 165, 0.6);
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+.footer {
+    padding-top: 30px;
+    height: 70px;
+    background-color: black;
+    color: wheat;
+}
+.footer_text {
+    margin: 0px;
+}
